@@ -1,4 +1,4 @@
-headphoneMAC="1C:52:16:B9:23:A3"
+headphoneMAC="XX:XX:XX:XX:XX:XX"
 echo -e "remove $headphoneMAC\n" | bluetoothctl 
 sleep 5s
 echo -e "trust $headphoneMAC\n" | bluetoothctl
